@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="Navstyle.css" rel="stylesheet" type="text/css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noieyama About Me</title>
+  <style>
+    body {
+	background-color: #EAE0D8;
+	font-family: 'Cambria';
+	text-align: center;
+    }
+    h1 {
+      font-family: cursive;
+    }
+	      .intro {
+	text-align: center;
+	margin: auto;
+	max-width: 800px;
+	padding: 20px;
+    }
+    footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: absolute;
+	bottom: -923px;
+	width: 100%;
+	left: -1px;
+    }
+  </style>
+<link href="Contactform.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<a href="Index.html">
+<div class="mylogo">
+  <img src="Assets/Logo.jpg" width="289" height="294" alt="header">
+</div>
+</a>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Bracelets.html">Bracelets</a></li>
+	  <li><a href="About_Me.html">About Me</a></li>
+      <li><a href="Cart.html">Shopping Cart</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+<div>
+    <div class="intro">
+    <p>Here is a little about me.  I am a young woman who grew up with parents of immigrant parents, and my love for crafting comes from my family's rich history of creativity and artistry.</p>
+    <p>As a child, I was fascinated by my grandparents' talent for making beautiful things out of seemingly nothing. My parents inherited their creative spirit, and as a result, I was exposed to a world of crafting and creating from a very young age. I learned how to make things with my hands, and soon discovered that creating was not only fun, but also deeply satisfying.</p>
+    <p>Today, using my hands to craft things on a daily basis is my passion. Whether it's making beautiful handmade bracelets or cooking up delicious recipes, I put my heart and soul into every project I undertake. I believe that there's something special about creating things from scratch, and I take pride in knowing that each piece I make is truly one-of-a-kind.</p>
+    <p>Thank you for taking the time to learn more about me and my passion for creating handmade bracelets. I hope that my love for crafting shines through in every piece, and that you find something special to add to your own jewelry collection.</p>
+		
+      <p><span style="text-align: center"><a href="mailto:nrrodriguez3@my.waketech.edu">Email</a>
+      </span></p>
+    <p><span style="text-align: center"><a href="Contact.html.txt">Contact Me</a></span></p>
+    <form action="submit-form.php" method="POST">
+   <!-- Form elements -->
+  <label class="contact-form-label" for="name">Name:</label>
+  <input class="contact-form-input" type="text" id="name" name="name" required>
+
+  <label class="contact-form-label" for="email">Email:</label>
+  <input class="contact-form-input" type="email" id="email" name="email" required>
+
+  <label class="contact-form-label" for="phone">Phone:</label>
+  <input class="contact-form-input" type="tel" id="phone" name="phone">
+
+  <label class="contact-form-label" for="message">Message:</label>
+  <textarea class="contact-form-textarea" id="message" name="message" required></textarea>
+
+  <button class="contact-form-submit-button" type="submit">Submit</button>
+</form>
+
+		
+    <!-- Footer --> 	
+		
+		  <footer class="fluid footer_div">
+    <p>&copy; 2023 Noieyama</p>
+  </footer>
+</div>
+	</div>
+</body>
+</html>
